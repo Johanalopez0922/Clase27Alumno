@@ -7,16 +7,16 @@ class CannonBall {
       isStatic: true
     };
     this.r = 40;
-//create a circle body
-//load the image
+//crear un cuerpo circular
+//cargar la imagen
     World.add(world, this.body);
   }
 
   shoot() {
     
-    //set the angle of ball to cannon
-    //set static value to the body
-    //set the velocity for the ball to make the ball to move
+    //establecer el ángulo de la bala al cañón
+    //establecer un valor estático al cuerpo
+    //establecer la velocidad de la bala para hacer que se mueva
   }
 
   display() {
@@ -26,7 +26,7 @@ class CannonBall {
     translate(pos.x, pos.y);
     rotate(angle);
     imageMode(CENTER);
-//display the image
+//mostrar la imagen
     pop();
 
     }
