@@ -22,7 +22,7 @@ function setup() {
   ground = new Ground(0, height - 1, width * 2, 1);
   tower = new Tower(150, 350, 160, 310);
   cannon = new Cannon(180, 110, 100, 50, angle);
-//create a object for cannonball
+//crea un objeto para la bala de cañón
 }
 
 function draw() {
@@ -37,7 +37,7 @@ function draw() {
 
   cannon.display();
   tower.display();
-//display the cannonball 
+//mostrar la bala de cañón
 }
 
 
@@ -46,5 +46,5 @@ function draw() {
 
 
 function keyReleased() {
- //use  keydown to call the shoot function
+ //utiliza keydown para llamar a la función shoot
 }
